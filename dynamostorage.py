@@ -24,11 +24,6 @@ class dynamoStorage():
                     pass
                 else:
                     print('Unkown Error in Describe Table')
-            #if self._cur.fetchone() is None:
-            #   if(not sortKey):
-            #      self._cur.execute('CREATE TABLE {0} (skey TEXT PRIMARY KEY, value TEXT)'.format(self._table))
-            # else:
-                #    self._cur.execute('CREATE TABLE {0} (skey TEXT, sort TEXT, value TEXT, PRIMARY KEY(skey,sort))'.format(self._table))
 
     def createTable(self, tableName):
         client = self.session.client('dynamodb')
