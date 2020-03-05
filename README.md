@@ -10,11 +10,11 @@ En este archivo fue necesario incluir una función que nos permitiera obtener m�
 
 En otras palabras, podríamos tener en la base de datos algo así:
 
-| tag     | sort | value             |
+| label     | sort | value             |
 |---------|------|-------------------|
-| america | 18   | url_america       |
-| america | 19   | url_north_america |
-| golf    | 21   | url_golf          |
+| america | 18   | category_america       |
+| america | 19   | category_north_america |
+| golf    | 21   | category_golf          |
 
 Se puede notar que tenemos dos valores para el tag de américa. Con la función obtendríamos ambos valores. Se limitó el número de valores recibidos a 5, pero este valor puede ser modificado. 
 
