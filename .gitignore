@@ -127,3 +127,17 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+
+sqlite_images.db
+sqlite_labels.db
+activate/
+.vscode
+bin/
+lib/
+pyvenv.cfg
+labels_en.zip
+labels_en.ttl
+images.ttl.bz2
+images.ttl
+__pycache__/
